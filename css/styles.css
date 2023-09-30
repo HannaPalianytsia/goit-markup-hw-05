@@ -445,3 +445,117 @@ img {
 .footer-svg {
   fill: #f4f4fd;
 }
+.footer-social-container {
+  margin-right: 80px;
+}
+.subscribe-cont {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+}
+.subscribe-label {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  gap: 16px;
+}
+.subscribe-input {
+  width: 264px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  font-size: 12px;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.04em;
+  outline: none;
+}
+
+.subscribe-input::placeholder {
+  color: #fff;
+  font-size: 12px;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.04em;
+}
+.subscribe-btn {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+/* Modal window  */
+.modal {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  z-index: 1;
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 24px;
+  padding-top: 72px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  width: 408px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: var(--DAIRY, #fcfcfc);
+}
+.close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  /* padding: 8px; */
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  background-color: #e7e9fc;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+.close-svg {
+  fill: #2e2f42;
+}
+.contact-text {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
